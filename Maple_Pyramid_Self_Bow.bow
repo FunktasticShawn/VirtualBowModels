@@ -1,0 +1,137 @@
+{
+    "comment": "",
+    "damping": {
+        "damping_ratio_limbs": 0.05,
+        "damping_ratio_string": 0.05
+    },
+    "dimensions": {
+        "brace_height": 0.17,
+        "draw_length": 0.73,
+        "handle_angle": 0.0,
+        "handle_length": 0.0,
+        "handle_setback": 0.0
+    },
+    "layers": [
+        {
+            "height": [
+                [
+                    0.0,
+                    0.035
+                ],
+                [
+                    0.017,
+                    0.035
+                ],
+                [
+                    0.049,
+                    0.0339
+                ],
+                [
+                    0.12,
+                    0.0209
+                ],
+                [
+                    0.258,
+                    0.011300000000000001
+                ],
+                [
+                    0.41000000000000003,
+                    0.011
+                ],
+                [
+                    0.6,
+                    0.0109
+                ],
+                [
+                    0.77,
+                    0.011
+                ],
+                [
+                    1.0,
+                    0.0109
+                ]
+            ],
+            "material": 0,
+            "name": "Bow"
+        }
+    ],
+    "masses": {
+        "arrow": 0.021,
+        "limb_tip": 0.003,
+        "string_center": 0.001,
+        "string_tip": 0.0
+    },
+    "materials": [
+        {
+            "E": 12000000000.0,
+            "color": "#ff9966",
+            "name": "Maple",
+            "rho": 675.0
+        }
+    ],
+    "profile": [
+        {
+            "parameters": {
+                "length": 0.87
+            },
+            "type": "line"
+        }
+    ],
+    "settings": {
+        "arrow_clamp_force": 0.5,
+        "n_draw_steps": 180,
+        "n_limb_elements": 48,
+        "n_string_elements": 26,
+        "sampling_rate": 16000.0,
+        "time_span_factor": 4.0,
+        "time_step_factor": 0.14
+    },
+    "string": {
+        "n_strands": 12,
+        "strand_density": 0.0005,
+        "strand_stiffness": 3500.0
+    },
+    "version": "0.9",
+    "width": [
+        [
+            0.0,
+            0.032
+        ],
+        [
+            0.05,
+            0.032
+        ],
+        [
+            0.08199999999999999,
+            0.0373
+        ],
+        [
+            0.11,
+            0.04820000000000001
+        ],
+        [
+            0.13,
+            0.05
+        ],
+        [
+            0.215,
+            0.04662
+        ],
+        [
+            0.5700000000000001,
+            0.02648
+        ],
+        [
+            0.735,
+            0.016312
+        ],
+        [
+            0.895,
+            0.009524999999999999
+        ],
+        [
+            1.0,
+            0.009524999999999999
+        ]
+    ]
+}
